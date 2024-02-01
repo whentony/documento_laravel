@@ -1,0 +1,41 @@
+###
+POST https://api.pdg.dev/api/perfil
+Content-Type: application/json
+Accept: application/json
+
+{
+    "descricao": "teste descricao",
+    "nivel":  1,
+    "nome_perfil": "VEREADOR"
+}
+
+###
+POST http://api.pdg.dev/api/login
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "teste@teste",
+    "password": "teste"
+}
+
+
+###
+POST http://api.pdg.dev/api/validate-token
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmI2ZmJiMDdjZmQ4ZDdlYzllY2Q1NDM0YzhmOTNmYjczN2FjOTRiMWEyOWY1M2ZmZDUyNjI4MzA0YzMyMWIyM2QyMzA2ZmEyZTZiMDRmMzEiLCJpYXQiOjE3MDU2MTI2MjQuMDI1MjkzLCJuYmYiOjE3MDU2MTI2MjQuMDI1Mjk2LCJleHAiOjE3MzcyMzUwMjMuODkwNDQ1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.HxVc0dedqIRcKEkSeL5-Z_KUhuVk_NlSRaykHS9UKiUbZYDgOjaVacl7BsCBuc4FBV3cbWghzP70MEmgyTK6qRNLxbv2UmHIa07ZP_wrCLkM0qyNl45dRFQVJ4CJ7acSZQbWWJy-in7x1TO5pBUt18OnYN4Vuxm-FfOgeZ_0khF34XUDmtnko8q7WCUjwZcF2saJJqlo2J6EW6wlfc0r22a5bNzoghOPPuxNj4_RaVtLKDwJj6DA-BJr0L7wt1ZWq1ajxA-SfnEn3ugNjNmQ1v0vDOW1qHdvOFMhyr4fYKC85dNY9iEXCZ_eZQqBCYbq7ClkXDs3X7tZNhLZGFRBCUrSBT9qXlQGG5X8mEcD5cwh4XIY2f4hFnYQVlZlD7e0X-_SsN3-DgyWqU3fm3RUtYtnmwKzwi8FFbAF7-54q9_p7zP2sRkcNyR7fHzSklI_Nvrk3X7T4JEHUs6ECj3MR9Tp4va_5yeY_6Q0FmykMnISDzkVrnmcroEe5Vr9y5KhLCIk4CBMJmO1kZNPdiT71jkINVuDALy4exkrBXfIpgEdJvRRhh_-Zai6-IlxOJ-4XKUkBKqZFuK1B24scBH3CL1kLG3c73Gp7IW8idaQFT3Crh8eM0O5vZ7XuufQXgt70QuuajvO1ucAQ2j-eNboppELMcv-WEtvTIh5mWBh2KQ
+
+
+###
+GET http://api.pdg.dev/api/tipo-documento
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGUzZmU0NWRhODBkZjJjYzFmYTY2OWY4NzZlODkwZTIxZTczOTVlYjIxM2FmNjg3MjdhMTJlNDUwNjlhZjliZTQ4ZDQ3MGZiM2ZiZDY4ZTIiLCJpYXQiOjE3MDU3OTAwNzguNzgyODc5LCJuYmYiOjE3MDU3OTAwNzguNzgyODgyLCJleHAiOjE3Mzc0MTI0NzguNTI2MjcsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.mnd5pZja3atH6SrOwmD3269Hrj95BH80tacN4amw5AGvfLqhyrtB7hahqe8mWl464Tthkkl44LS5hABYZO9d9SDv3AQLZsD0flQsblJmufOTgX7OPl4K0D7H-GHEb2O94GfjebbFAgav0UeyDM6oiJNG-OUSnasAyRggz81KBuQKzZMA18mcbUN0ruKodaPAPfofPf1_2THIENFMffK9Vrb19MjhmTwPaj_gWL_g_gMO3Kv_hJmxo13iOtzuqJj29SOkGo7Xxnvvnw5WvaHizW7oCPfpKTW6tMaCQNMGxSBa7_U7AZnG6xVdmq3Y7VrqqYJlwzetUvfFx6MiM7Xd3wsHuT6M8BGmy8E0rJhAEP3oh4vD4Il4v0x1I1HTfTbqOfZTpi2jNLlWg2CCBhhEkioRFnXYHHom7Cb7QsgaPissmzQlDFVASJ3Uy8d9ds4DIncLTpolehHgu_7ae6Whl3YOD7Nc35e9G3kzSfIOkZZ7_LHByDtkDVN-Ru3ECTKDrNTZb1iMVUaycCJAKvOtYFiJ0T3icAEL2TrwmWAbrdutQkd08E9PVC8XUeSI5dhRb41oFjzqU-y2teh53DvJZs_CTSMoSsDq5GersszeEBdGlngrcyhcCkm5p5QyqtFDECmK5lntA92X06Cb4RqSoO7WX6JHniDsTcmRQBWShC4
+
+
+
+###
+GET http://api.pdg.dev/api/assinar-documento/
+Content-Type: application/json
+Accept: application/json
